@@ -106,7 +106,8 @@ Depending on your project, some of these items may be useful as headings/section
 - Disclaimer or Legal disclaimer
 - Bugs and Issues or Reporting issues
 - Help & Support
-- Notes
+- Notes or Important Notes or General info
+- Project Details
 - Live Demo
 - Abstract
 - Problem Statement

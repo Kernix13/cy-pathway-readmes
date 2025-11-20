@@ -103,6 +103,9 @@ Adding a license is easy if you follow the steps in the GitHub Docs article [Add
 Depending on your project, some of these items may be useful as headings/sections:
 
 - Additional Notes
+- Disclaimer or Legal disclaimer
+- Bugs and Issues or Reporting issues
+- Help & Support
 - Notes
 - Live Demo
 - Abstract

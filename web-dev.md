@@ -6,7 +6,7 @@
 
 # Project title
 
-> Project header image here + throughout README, possible brief intor pragraph next
+> Project header image here + other images throughout README, possible brief intro pragraph next
 
 ## Project Overview
 
@@ -97,7 +97,7 @@ This can be shown as a table, unordered list, or a "tree" diagram in a generic c
 
 ## Contributing
 
-> OPTIONAL: _Notes about allowing contributors to help develop your project with a link to the `contributing.md` file, also possible named `CONTRIBUTING.md`._
+> OPTIONAL: _Notes about allowing contributors to help develop your project with a link to a file named `contributing.md` or `CONTRIBUTING.md`._
 
 ## License
 
@@ -117,7 +117,7 @@ Depending on your project, some of these items may be useful as headings/section
 - Help & Support
 - Notes or Important Notes or General info
 - Project Details
-- Live Demo - I found 4 with a link to the live version
+- Live Demo - I found 4 with a link to a live demo of their project
 - Abstract
 - Problem Statement
 - Data Sources

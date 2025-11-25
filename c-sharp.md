@@ -1,6 +1,12 @@
 # README Headings for the C# Pathway
 
-> All of the following headings down to the "Miscellaneous" section are applicable to all pathways.
+> All of the following headings down to the "Miscellaneous" section are applicable to all pathways - delete thism the title above, and the hr below
+
+---
+
+## Project title
+
+> Project header image here + throughout README
 
 ## Project Overview
 

@@ -1,6 +1,12 @@
 # README Headings for the Web Development Pathway
 
-> All of the following headings down to the "Miscellaneous" section are applicable to all pathways.
+> All of the following headings down to the "Miscellaneous" section are applicable to all pathways - delete thism the title above, and the hr below
+
+---
+
+# Project title
+
+> Project header image here + throughout README, possible brief intor pragraph next
 
 ## Project Overview
 
@@ -11,7 +17,7 @@
 - Project Description
 - Description
 - About
-- Intro with no heading
+- Or an intro with no heading
 
 ## Getting Started
 
@@ -19,9 +25,10 @@
 
 **Alternate titles**:
 
-- How to Run/Use
+- How to Run or How to Use
 - Installation
 - Quickstart
+- Download
 
 ## Features
 
@@ -36,13 +43,13 @@
 
 > _A "diagram" of the main files and folders of your project._
 
-This can be shown as a table, unordered list, or generic code block. For a generic code block, I found ChatGPT to do the best job.
+This can be shown as a table, unordered list, or a "tree" diagram in a generic code block. For a tree diagram, I found ChatGPT to do the best job. I only found 10 repos with a "decent" project structure section.
 
 **Alternate titles**:
 
 - File Structure
 
-**Tools to generate a code block structure**:
+**Tools to generate a code block tree diagram**:
 
 - [tree.nathanfriend.com](https://tree.nathanfriend.com/)
 - [ASCII Tree Generator](https://ascii-tree-generator.com/)
@@ -51,7 +58,7 @@ This can be shown as a table, unordered list, or generic code block. For a gener
 
 ## Capstone Requirements
 
-> _This is a list or table of the project requirements that you met._
+> _This is a list or table of the project requirements that you met and how you met them._
 
 **Alternate titles**:
 
@@ -69,7 +76,7 @@ This can be shown as a table, unordered list, or generic code block. For a gener
 
 ## Use of AI
 
-> _Notes on any/each use of AI you used for your project._
+> _Notes on any/each use of AI you used for your project. I Only found one repo with this heading._
 
 ---
 
@@ -90,13 +97,15 @@ This can be shown as a table, unordered list, or generic code block. For a gener
 
 ## Contributing
 
-> OPTIONAL: _Notes about allowing contributors to help develop your project with a link to the `contributing.md` file._
+> OPTIONAL: _Notes about allowing contributors to help develop your project with a link to the `contributing.md` file, also possible named `CONTRIBUTING.md`._
 
 ## License
 
 > OPTIONAL: _A brief note on the license for your project with a link to the license._
 
-Adding a license is easy if you follow the steps in the GitHub Docs article [Adding a license to a repository](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). I added mine from the GitHub site and then used `git pull` to pull it into my local repo.
+Adding a license is easy if you follow the steps in the GitHub Docs article [Adding a license to a repository](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). I added an MIT license from my GitHub repo and then used `git pull` to pull it into my local repo.
+
+In the Code:You repos I viewed, I found 16 repos with a license, mostly MIT but 5 with GPL and then 2 oddball ones (Apache, BDO).
 
 ## Miscellaneous optional headings:
 
@@ -108,7 +117,7 @@ Depending on your project, some of these items may be useful as headings/section
 - Help & Support
 - Notes or Important Notes or General info
 - Project Details
-- Live Demo
+- Live Demo - I found 4 with a link to the live version
 - Abstract
 - Problem Statement
 - Data Sources
@@ -117,3 +126,21 @@ Depending on your project, some of these items may be useful as headings/section
 - Wireframes
 - Other Resources
 - Summary or Wrapping Up
+
+I found 1 repo with
+
+- a Code of Conduct markdown file,
+- one using GitHub Devicons,
+- and none that used shields.io badges.
+
+Devicons: check out the [devicons repo](https://github.com/devicons/devicon/tree/master/icons). You are going to have to decide which link to get, it's a little tricky, and you may need to download an SVG, change it's color in a program like Inkscape or Illustrator, then upload that svg into your repo and link to it that way.
+
+Shields.io: Check out the [Shield.io website](https://shields.io/), click
+
+- Get Started,
+- search for a category in the left sidebar,
+- then in the right sidebar enter the variables like your GitHub username, repo name, make choices for the other others,
+- then choose URL or Markdown for the eventual link/href you need.
+- You can also choose the badge style - I like flat, flat-square, or for-the-badge, but there are other options.
+
+Also check out my markdown file on all the [shields.io badges](https://github.com/Kernix13/markdown-cheatsheet/blob/master/shields.md) where I cover all the categories and make notes for the ones that would be good for a beginner.

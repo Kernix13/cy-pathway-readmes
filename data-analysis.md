@@ -47,6 +47,7 @@ This can be shown as a table, unordered list, or generic code block. For a gener
 **Alternate titles**:
 
 - File Structure
+- Architecture Overview
 
 **Tools to generate a code block structure**:
 
@@ -119,14 +120,18 @@ I found more projects for the Data pathway than for any other pathway. There wer
 - Credits
 - Customization
 - Data
+- Data Cleaning
 - Data Dictionary
 - Data inconsistencies, limitations, issues
 - Data Interpretation and Analysis
 - Data Source or Data Sources or The Data
 - Data Summary
+- Data Analysis Conclusions
 - Demo Overview
 - Demo Setup
 - Features & Visualizations
+- Findings
+- Future Development
 - Gathering the data
 - Hypothesis
 - In Detail
@@ -135,8 +140,10 @@ I found more projects for the Data pathway than for any other pathway. There wer
 - Key Findings
 - Linking an Existing Project
 - Loading Data
+- Methodology
 - Pre-work
 - Preliminary Steps
+- Programming Methodology
 - Project Presentation
 - Questions
 - Rarity Analysis
@@ -150,11 +157,12 @@ I found more projects for the Data pathway than for any other pathway. There wer
 - Source Overview
 - Summary or Summary of Findings or Conclusion or Findings
 - Supporting Documentation
+- Technical Insight
 - Tests
 - Trending Contributors
 - Troubleshooting
 - Updating a Project
 - Updating Values of Template Variables
-- Virtual Environment Commands
+- Virtual Environment Commands or Installing the Virtual Environment
 - Virtual Environment Instructions
 - Visualizations or Visualize/Present Your Data

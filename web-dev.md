@@ -25,10 +25,14 @@
 
 **Alternate titles**:
 
-- How to Run or How to Use
+- How to Run or How to Use or How to Run The Project
 - Installation
+- Installation and Getting Started
 - Quickstart
 - Download
+- How to Download
+- Instructions
+- Project Setup Instructions
 
 ## Features
 
@@ -38,6 +42,7 @@
 
 - User Guide
 - Usage
+- Project Features
 
 ## Project Structure
 
@@ -48,6 +53,7 @@ This can be shown as a table, unordered list, or a "tree" diagram in a generic c
 **Alternate titles**:
 
 - File Structure
+- Project Layout
 
 **Tools to generate a code block tree diagram**:
 

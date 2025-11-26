@@ -1,6 +1,6 @@
 # README Templates for Code:You Pathways
 
-I looked at 200+ capstone projects and found ~80 repos with good project READMEs. I searched for:
+I looked at 200+ capstone projects and found ~82 repos with good project READMEs. I searched for:
 
 - CodeLouisville and Code:Louisville
 - CodeKentucky and Code:Kentucky

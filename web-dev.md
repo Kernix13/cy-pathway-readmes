@@ -1,6 +1,6 @@
 # README Headings for the Web Development Pathway
 
-> All of the following headings down to the "Miscellaneous" section are applicable to all pathways - delete thism the title above, and the hr below
+<!-- All of the following headings down to the "Miscellaneous" section are applicable to all pathways - delete this comment, the title above, and the hr below -->
 
 ---
 
@@ -71,14 +71,16 @@ This can be shown as a table, unordered list, or a "tree" diagram in a generic c
 - Requirements
 - Capstone Prerequisites
 
-## Future Improvements
+## Tech Stack
 
-> _A list of features you would like to implement in the future._
+> _List of the tools, technologies, languages, etc. that you used._
 
 **Alternate titles**:
 
-- Future Development
-- Future State
+- Tech Resources
+- Tech Stack Used
+- Programming Languages
+- Tools Used
 
 ## Use of AI
 
@@ -90,16 +92,14 @@ This can be shown as a table, unordered list, or a "tree" diagram in a generic c
 
 <p align="center">---- The following are other optional headings that apply to all pathways ----</p>
 
-## Tech Stack
+## Future Improvements
 
-> _List of the tools, technologies, languages, etc. that you used._
+> _A list of features you would like to implement in the future._
 
 **Alternate titles**:
 
-- Tech Resources
-- Tech Stack Used
-- Programming Languages
-- Tools Used
+- Future Development
+- Future State
 
 ## Contributing
 
@@ -139,14 +139,18 @@ I found 1 repo with
 - one using GitHub Devicons,
 - and none that used shields.io badges.
 
+## Devicons
+
 Devicons: check out the [devicons repo](https://github.com/devicons/devicon/tree/master/icons). You are going to have to decide which link to get, it's a little tricky, and you may need to download an SVG, change it's color in a program like Inkscape or Illustrator, then upload that svg into your repo and link to it that way.
+
+## Shields.io badges
 
 Shields.io: Check out the [Shield.io website](https://shields.io/), click
 
 - Get Started,
-- search for a category in the left sidebar,
-- then in the right sidebar enter the variables like your GitHub username, repo name, make choices for the other others,
-- then choose URL or Markdown for the eventual link/href you need.
+- Search for a category in the left sidebar,
+- Then in the right sidebar enter the variables like your GitHub username, repo name, make choices for the other others,
+- Then choose URL or Markdown for the eventual link/href you need.
 - You can also choose the badge style - I like flat, flat-square, or for-the-badge, but there are other options.
 
-Also check out my markdown file on all the [shields.io badges](https://github.com/Kernix13/markdown-cheatsheet/blob/master/shields.md) where I cover all the categories and make notes for the ones that would be good for a beginner.
+Also check out this markdown file on all the [shields.io badges](https://github.com/Kernix13/markdown-cheatsheet/blob/master/shields.md) which has all the categories and notes for the ones that would be good for a beginner.

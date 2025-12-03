@@ -34,7 +34,7 @@
 - Instructions
 - Project Setup Instructions
 
-## Features
+## How It Works
 
 > _A "How-To" guide for a user._
 

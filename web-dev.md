@@ -70,6 +70,7 @@ This can be shown as a table, unordered list, or a "tree" diagram in a generic c
 
 - Requirements
 - Capstone Prerequisites
+- Feature Implementation
 
 ## Tech Stack
 
@@ -101,10 +102,6 @@ This can be shown as a table, unordered list, or a "tree" diagram in a generic c
 - Future Development
 - Future State
 
-## Contributing
-
-> OPTIONAL: _Notes about allowing contributors to help develop your project with a link to a file named `contributing.md` or `CONTRIBUTING.md`._
-
 ## License
 
 > OPTIONAL: _A brief note on the license for your project with a link to the license._
@@ -112,6 +109,12 @@ This can be shown as a table, unordered list, or a "tree" diagram in a generic c
 Adding a license is easy if you follow the steps in the GitHub Docs article [Adding a license to a repository](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). I added an MIT license from my GitHub repo and then used `git pull` to pull it into my local repo.
 
 In the Code:You repos I viewed, I found 16 repos with a license, mostly MIT but 5 with GPL and then 2 oddball ones (Apache, BDO).
+
+## Contributing
+
+> OPTIONAL: _Notes about allowing contributors to help develop your project with a link to a file named `contributing.md` or `CONTRIBUTING.md`._
+
+**NOTE**: `License`, `CODE_CONDUCT.md`, and CON`TRIBUTING.m`d files go together - if you are going to have 1, you should have all 3.
 
 ## Miscellaneous optional headings:
 

@@ -18,6 +18,9 @@ I did not find many C# capstone projects that had a "good" README. Here is a lis
 - Test Plan
 - Unit Test Creation
 - Summary or Wrapping Up
+- SQL Server Version
+- How to Use the Web App
+- Building this project
 
 See _Miscellaneous optional headings_ for other potentional headings in [web-dev.md](./web-dev.md) and [data-analysis.md](./data-analysis.md)
 

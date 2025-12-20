@@ -48,7 +48,7 @@
 
 > _A "diagram" of the main files and folders of your project._
 
-This can be shown as a table, unordered list, or a "tree" diagram in a generic code block. For a tree diagram, I found ChatGPT to do the best job. I only found 10 repos with a "decent" project structure section.
+This can be shown as a table, unordered list, or a "tree" diagram in a code block. For a tree diagram, I found ChatGPT to do the best job. I only found 10 repos with a "decent" project structure section.
 
 **Alternate titles**:
 
@@ -61,6 +61,8 @@ This can be shown as a table, unordered list, or a "tree" diagram in a generic c
 - [ASCII Tree Generator](https://ascii-tree-generator.com/)
 - VS Code Extension: "File Tree Generator"
 - npm package: `tree-cli`
+
+> Try `py`, `sh`, or `yml` as the language is you use a code block.
 
 ## Capstone Requirements
 
@@ -106,15 +108,15 @@ This can be shown as a table, unordered list, or a "tree" diagram in a generic c
 
 > OPTIONAL: _A brief note on the license for your project with a link to the license._
 
-Adding a license is easy if you follow the steps in the GitHub Docs article [Adding a license to a repository](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). I added an MIT license from my GitHub repo and then used `git pull` to pull it into my local repo.
+Adding a license is easy if you follow the steps in the GitHub Docs article [Adding a license to a repository](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). I added an MIT license to my GitHub repo on GitHub and then used `git pull` to pull it into my local repo.
 
-In the Code:You repos I viewed, I found 16 repos with a license, mostly MIT but 5 with GPL and then 2 oddball ones (Apache, BDO).
+In the Code:You repos I viewed, I found 16+ repos with a license, mostly MIT but 5 with GPL and then 2 oddball ones (Apache, BDO).
 
 ## Contributing
 
 > OPTIONAL: _Notes about allowing contributors to help develop your project with a link to a file named `contributing.md` or `CONTRIBUTING.md`._
 
-**NOTE**: `License`, `CODE_CONDUCT.md`, and CON`TRIBUTING.m`d files go together - if you are going to have 1, you should have all 3.
+**NOTE**: `License`, `CODE_CONDUCT.md`, and `CONTRIBUTING.md` files go together - if you are going to have 1, you should have all 3.
 
 ## Miscellaneous optional headings:
 

@@ -11,7 +11,16 @@ I looked at 200+ capstone projects and found ~82 repos with good project READMEs
 
 There are headings in common to all pathways, but each pathway has their own unique headings. The pathways covered in this repo:
 
-1. [Web Development](./web-dev.md) - 40 repos found
+1. [Web Development](./web-dev.md) - 40 repos found - notable tech stack counts:
+   - React: 5
+   - React + Tailwind + TS: 4
+   - SQL: 3
+   - Vue: 2
+   - React + React Native + TS + Tailwind: 1
+   - React + TS + Python: 1
+   - Next.js: 1
+   - EJS + Jest: 1
+   - PHP + JS: 1
 2. [Data Analysis](./data-analysis.md) - 55 repos found
    - 9 repos found for Python
    - 35 repos found for Jupyter Notebook

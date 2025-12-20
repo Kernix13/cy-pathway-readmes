@@ -62,7 +62,7 @@ This can be shown as a table, unordered list, or a "tree" diagram in a code bloc
 - VS Code Extension: "File Tree Generator"
 - npm package: `tree-cli`
 
-> Try `py`, `sh`, or `yml` as the language is you use a code block.
+> Try `py`, `sh`, or `yml` as the language if you use a code block for your directory tree.
 
 ## Capstone Requirements
 

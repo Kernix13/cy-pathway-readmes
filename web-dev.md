@@ -19,6 +19,15 @@
 - About
 - Or an intro with no heading
 
+Try to have your intro/project overview answer/address these questions:
+
+- What is this? -> What the project is
+- What does it actually do? -> What problem/subject it deals with
+- What tech is involved? -> How it works (high-level architecture)
+- Why should I care / what can I do with it? -> What the user can do with it
+
+> This project is a `[type of app]` that `[main purpose]` for `[who/what subject]`. It uses `[tech/tool]` to `[backend role]` and `[tech/tool]` to `[frontend/user role]`.
+
 ## Getting Started
 
 > _The steps needed for someone to run your project._

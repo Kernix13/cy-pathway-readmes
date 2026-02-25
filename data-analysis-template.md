@@ -10,11 +10,48 @@
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
+## Headings???
+
+> _I need someone who knows data analysis to refine the README structure_
+
+- Title ✅
+  - Intro paragraph below title
+- Overview or About or Description ✅
+- Requirements ✅
+- Getting Started or Install & Setup or How to Run ✅
+- Usage Guide or How it Works or How to Use ✅
+- Features
+- Project Structure ✅
+- Future Improvements
+- Create the virtual environment ✅
+- Data Sources
+- Data Dictionary
+- Key Questions
+- Requirements
+- Gathering the data
+- Key Findings
+- Project Summary
+- Conclusion
+- Visualizations
+- Technology and frameworks or Technologies Used or Dependencies
+- Object Schema
+- APIs
+- Acknowledgments
+- Contributing ✅
+- License ✅
+
 ## Setup and Installation
 
 ## Create the virtual environment
 
 ### Virtual Environment Commands
+
+| Command    | Linux/Mac                       | GitBash                         |
+| :--------- | :------------------------------ | :------------------------------ |
+| Create     | python3 -m venv venv            | python -m venv venv             |
+| Activate   | source venv/bin/activate        | source venv/Scripts/activate    |
+| Install    | pip install -r requirements.txt | pip install -r requirements.txt |
+| Deactivate | deactivate                      | deactivate                      |
 
 ## Capstone Requirements
 

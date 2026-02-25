@@ -6,9 +6,30 @@
 
 <div align="center"><img width="686" height="415" alt="Home page search results image cards" src="./placeholder.png" /></div>
 
-## Heading
+## Headings???
+
+I am not sure of the "best" headings for a C# project. The _Capstone Requirements_ heading below is only for a capstone project, but what about a stand-alone project? Here is what I think would be good to include with ✅ for any heading I definitely think should be included:
+
+- Title ✅
+  - Intro paragraph below title
+- Overview or About or Description ✅
+- Requirements ✅
+- Getting Started or Install & Setup or How to Run ✅
+- Usage Guide or How it Works or How to Use ✅
+- Features
+- Project Structure ✅
+- Future Improvements
+- Setting Environment Variables
+- Data Sources
+- Technology and frameworks
+- Object Schema
+- APIs
+- Contributing ✅
+- License ✅
 
 ## Capstone Requirements
+
+> _I need to look at the projects from August cohort_
 
 - Have at least 5 commits on GitHub
 

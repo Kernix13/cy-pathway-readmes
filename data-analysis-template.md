@@ -15,15 +15,15 @@
 > _I need someone who knows data analysis to refine the README structure_
 
 - Title ✅
-  - Intro paragraph below title
-- Overview or About or Description ✅
-- Requirements ✅
-- Getting Started or Install & Setup or How to Run ✅
-- Usage Guide or How it Works or How to Use ✅
+  - Intro paragraph below title ✅
+- Overview or About or Description ❓
+- Requirements ❓
+- Getting Started or Install & Setup or How to Run ❓
+- Usage Guide or How it Works or How to Use ❓
 - Features
-- Project Structure ✅
+- Project Structure ❓
 - Future Improvements
-- Create the virtual environment ✅
+- Create the virtual environment ❓
 - Data Sources
 - Data Dictionary
 - Key Questions

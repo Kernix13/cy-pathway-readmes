@@ -125,3 +125,36 @@
 - Utilize a Python virtual environment and include instructions in the README on how the user should set one up
 - Optional: Data Dictionary
 - Annotate code with markdown cells in Python and Jupyter Notebook, write clear code comments, and have a well-written README.md
+
+## New template
+
+```
+# Project Name – short descriptive subtitle
+
+- Badges (optional)
+- Intro paragraph (VERY important for SEO)
+- Screenshot / visualization preview
+
+## Project Overview
+## Key Questions
+
+## Data Sources
+## Data Dictionary
+
+## Methodology
+## Visualizations
+## Key Findings
+
+## Technologies Used
+
+## Installation
+## Create a Virtual Environment
+## Usage
+
+## Project Structure
+
+## Future Improvements
+## Acknowledgments
+## Contributing
+## License
+```

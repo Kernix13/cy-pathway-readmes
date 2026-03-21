@@ -1,17 +1,17 @@
 # README Templates for Code:You Pathways
 
-I looked at 200+ capstone projects and found ~93 repos with good project READMEs. I searched for:
+I looked at 200+ capstone projects and found ~96 out of 121 repos with project READMEs that rangr from just _Okay_ to _Excellent_. I searched for:
 
 - CodeLouisville and Code:Louisville
 - CodeKentucky and Code:Kentucky
 - CodeKY and Code:KY
 - CodeYou and Code:You
 
-... and I appended either "capstone" or "project" to those.
+... and I appended either "_capstone_" or "_project_" to those.
 
 There are headings in common to all pathways, but each pathway has their own unique headings. The pathways covered in this repo:
 
-1. [Web Development](./web-dev.md) - 40 repos found - notable tech stack counts:
+1. [Web Development](./web-dev.md) - 45 repos found - notable tech stack counts:
    - React: 5
    - React + Tailwind + TS: 4
    - SQL: 3
@@ -30,7 +30,7 @@ There are headings in common to all pathways, but each pathway has their own uni
    - 9 repos found for C#
    - 6 repo found with C# + HTML & CSS + JS/TS + ...
 4. [Google IT Support](./it-support.md) - no repos found with anything other than a single paragraph
-5. Other/Unknown:
+5. Other/Unknown - 6 repos found:
    - 1 repo using Shell
    - 1 repo using Objective-C, Objective-C++, Ruby but with 4 contributors
    - 1 repo with TypeScript & JavaScript, no HTML

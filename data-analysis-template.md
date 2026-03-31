@@ -1,83 +1,260 @@
-# Data Analysis README Template
+---
+language: Data Analysis README Template
+slug: data-analysis-template
+type: template
+last_updated: 2026-03-31
+---
 
-<!-- Delete the H1 above -->
+# Your Project Name – short descriptive subtitle
 
-<h1 id="back-to-top">Your Project Name</h1>
+Badges (optional)
 
-<div align="center"><img width="686" height="415" alt="Home page search results image cards" src="./placeholder.png" /></div>
+<!--
+📌 Shields.io badges:
+- Go to https://shields.io/badges, try for-the-badge, flat or flat-square
+ -->
 
-## Overview
+Intro paragraph (VERY important for SEO)
 
-<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+Screenshot / GIF demo
 
-## Headings???
+<br>
 
-> _I need someone who knows data analysis to refine the README structure_
+## Table of Contents
 
-- Title ✅
-  - Intro paragraph below title ✅
-- Overview or About or Description ❓
-- Requirements ❓
-- Getting Started or Install & Setup or How to Run ❓
-- Usage Guide or How it Works or How to Use ❓
-- Features
-- Project Structure ❓
-- Future Improvements
-- Create the virtual environment ❓
-- Data Sources
-- Data Dictionary
-- Key Questions
-- Requirements
-- Gathering the data
-- Key Findings
-- Project Summary
-- Conclusion
-- Visualizations
-- Technology and frameworks or Technologies Used or Dependencies
-- Object Schema
-- APIs
-- Acknowledgments
-- Contributing ✅
-- License ✅
+> I am not sure of all the other "Data ..." headings a data analysis project may have, but this TOC is a good starting point.
 
-## Setup and Installation
+1. [Project Overview](#project-overview)
+1. [Key Questions](#key-questions)
+1. [Data Sources](#data-sources)
+1. [Technologies Used](#technologies-used)
+1. [Installation](#installation)
+1. [Usage](#usage)
+1. [Methodology](#methodology)
+1. [Data Dictionary](#data-dictionary)
+1. [Project Structure](#project-structure)
+1. [Visualizations](#visualizations)
+1. [Key Findings](#key-findings)
+1. [Capstone Requirements](#capstone-requirements)
+1. [Use of AI](#use-of-ai)
+1. [Future Improvements](#future-improvements)
+1. [Acknowledgments & Resources](#acknowledgments-resources)
+1. [Contributing](#contributing)
+1. [License](#license)
 
-## Create the virtual environment
+<br>
 
-### Virtual Environment Commands
+## Project Overview
 
-| Command    | Linux/Mac                       | GitBash                         |
-| :--------- | :------------------------------ | :------------------------------ |
-| Create     | python3 -m venv venv            | python -m venv venv             |
-| Activate   | source venv/bin/activate        | source venv/Scripts/activate    |
-| Install    | pip install -r requirements.txt | pip install -r requirements.txt |
-| Deactivate | deactivate                      | deactivate                      |
+More in-depth explanation than the intro paragraph of:
+
+- the goal of the analysis
+  - determine why certain repos rank in Google SERPS when others do not
+  - once determined, employ the same methods to improve my repo visibility
+  - provide this information to other developers
+- the dataset used
+  - my own research
+- the main insights or results
+
+<br>
+
+## Key Questions
+
+What questions the analysis attempts to answer.
+
+<br>
+
+## Data Sources
+
+Where the data came from.
+
+Include:
+
+- Dataset links: source are files I created
+  - `data/file1.csv`
+  - `data/file2.csv`
+- APIs used
+
+<br>
+
+## Technologies Used
+
+List the major tools & dependencies used.
+
+| Tool             | Version  |
+| :--------------- | :------- |
+| Python           | `3.14.0` |
+| Jupyter Notebook | `??.?.?` |
+| Pandas           | `3.0.1`  |
+| Matplotlib       | `??.?.?` |
+| Seaborn          | `??.?.?` |
+| NumPy            | `2.4.3`  |
+
+<br>
+
+## Installation
+
+> Use orderlists with indented code blocks for the SEO + Accessibility
+
+Follow these steps to set up the project locally.
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/YOUR_USER_NAME/REPO_NAME.git
+   cd REPO_NAME
+   ```
+
+2. Create a Virtual Environment
+
+   ```bash
+   # Linux/Mac Command
+   python3 -m venv venv
+
+   # GitBash Command (Windows)
+   python -m venv venv
+   ```
+
+3. Activate the virtual environment
+
+   ```bash
+   # Linux/Mac Command
+   source venv/bin/activate
+
+   # GitBash Command (Windows)
+   source venv/Scripts/activate
+   ```
+
+4. Install dependencies
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Quick Start (Windows - Git Bash)
+
+```sh
+git clone https://github.com/YOUR_USER_NAME/REPO_NAME.git
+cd REPO_NAME
+python -m venv venv
+source venv/Scripts/activate
+pip install -r requirements.txt
+```
+
+### Quick Start (Linux / macOS)
+
+```sh
+git clone https://github.com/YOUR_USER_NAME/REPO_NAME.git
+cd REPO_NAME
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+<br>
+
+## Usage
+
+1. Open the project in Jupyter Notebook using **_Anaconda Navigator_** or from the command line:
+
+   ```sh
+   jupyter notebook
+   # or:
+   jupyter lab
+   ```
+
+2. (OPTIONAL) Run the Streamlit dashboard: this is only if you are employing Streamlit (What is Streamlit? What does it do?)
+
+   ```sh
+   streamlit run app.py
+   ```
+
+3. Deactivate the virtual environment when done
+
+   ```sh
+   deactivate
+   ```
+
+<br>
+
+## Data Dictionary
+
+Explanation of the important variables or fields in the dataset. Example:
+
+| Column   | Description               |
+| -------- | ------------------------- |
+| price    | Listing price of property |
+| sqft     | Square footage            |
+| bedrooms | Number of bedrooms        |
+
+<br>
+
+## Methodology
+
+Explain the analytical process.
+
+Typical steps:
+
+- Data collection: search phrases on Google and GitHub Explore
+- Cleaning: N/A
+- Feature engineering: ???
+- Exploratory analysis: ???
+- Modeling (if applicable): ???
+
+<br>
+
+## Project Structure
+
+<!--
+📌 Project Tree Structure generators:
+  1. ChatGPT is best IMO: https://chatgpt.com/
+  2. https://tree.nathanfriend.com/
+  3. https://ascii-tree-generator.com/
+  4. VSCode File Tree Generator extension
+  5. npm tree-cli: https://www.npmjs.com/package/tree-cli
+ -->
+
+```py
+/
+├── README.md
+├── LICENSE
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+...
+```
+
+<br>
+
+## Visualizations
+
+Show key charts or plots.
+
+Include screenshots of graphs from the notebook.
+
+Explain what each chart demonstrates.
+
+<br>
+
+## Key Findings
+
+Summarize the most important insights discovered during the analysis.
+
+Example:
+
+- Homes within 1 mile of downtown were 35% more expensive.
+- Temperature had a strong correlation with bike rentals.
+- Product category X generated 48% of revenue.
+
+<br>
 
 ## Capstone Requirements
 
-> I need the Google Doc for DA - this is a mess
+> Code:You use only
 
-- Has at least 5 commits on GitHub
-- Read multiple data files
-- Set up a local database
-- Combine and summarize data
-- Create a Tableau dashboard
-- Use a virtual environment
-- Annotate and document
-- Read in data from a local .csv file
-- Make a list, dictionary, or other data structure to read in data for your program
-- Use custom functions to clean or manipulate data
-- Use built-in Python, Pandas, or custom functions to analyze data
-- Write custom functions to operate on your data
-- Read TWO data files (JSON, CSV, Excel, etc.).
-- Clean and operate on the data while combining them
-- Annotate your code with markdown cells in Jupyter Notebook, write clear code comments, and have a well-written README.md.
-- Scrape TWO pieces of data from anywhere on the internet and utilize it in your project
-- Clean and Operate on the Data While Combining Them: Clean data and perform a pandas merge with your two datasets, then calculate some new values based on the new data set
-- Annotate your .py files with well written comments and a clear README.md
-- Make 3 plotly visualizations to display your data
-- Build a custom data dictionary and include it either in your README or as a separate document
-- Annotate your code with markdown cells in Jupyter Notebook, write clear code comments, and have a well-written README.md
+- Upload your project to a GitHub repository with at least 10 distinct commits
+- Show your features implemented as list items or in a table as below
+
+### Table 1
 
 <table>
   <thead>
@@ -88,73 +265,138 @@
   </thead>
   <tbody>
     <tr>
-      <td>Clean your data and perform a pandas merge with your two data sets, then calculate some new values based on the new data set.</td>
+      <td>Pathway requirement 1</td>
       <td>Easy</td>
     </tr>
     <tr>
-      <td>Make 3 matplotlib, and Plotly</td>
-      <td></td>
+      <td>Pathway requirement 2</td>
+      <td>Easy</td>
     </tr>
     <tr>
-      <td>Make a Tableau dashboard</td>
-      <td></td>
+      <td>Pathway requirement 3</td>
+      <td>Easy</td>
     </tr>
     <tr>
-      <td>Utilize a virtual environment</td>
-      <td></td>
+      <td>Pathway requirement 4</td>
+      <td>Easy</td>
     </tr>
     <tr>
-      <td>Notate your code with markdown cells in Jupyter Notebook</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Make 3 matplotlib or seaborn visualizations to display your data</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
+      <td>...</td>
+      <td>...</td>
     </tr>
   </tbody>
-  </table>
+</table>
 
-- Read multiple data files
-- Clean the data and perform a pandas merge, perform SQL join with API retrieved data to calculate new values based on the query ouptut.
-- Make 3 visualizations to display data
-- Make a Tableau dashboard
-- Utilize a Python virtual environment and include instructions in the README on how the user should set one up
-- Optional: Data Dictionary
-- Annotate code with markdown cells in Python and Jupyter Notebook, write clear code comments, and have a well-written README.md
+### Table 2
 
-## New template
+<table>
+  <thead>
+    <tr>
+      <th>FEATURE</th>
+      <th>DIFFICULTY</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Pathway requirement 1</td>
+      <td>Easy</td>
+    </tr>
+    <tr>
+    <tr>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+  </tbody>
+</table>
 
+<br>
+
+## Tech Stack
+
+<!--
+📌 See all devicons here:
+  - https://github.com/devicons/devicon
+ -->
+
+> OPTIONAL
+
+```html
+<table>
+  <thead>
+    <tr>
+      <th>Tech</th>
+      <th>Use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Name of tech</td>
+      <td>
+        <ul>
+          <li>example using list items</li>
+          <li>list item 2</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 ```
-# Project Name – short descriptive subtitle
 
-- Badges (optional)
-- Intro paragraph (VERY important for SEO)
-- Screenshot / visualization preview
+<br>
 
-## Project Overview
-## Key Questions
+## Use of AI
 
-## Data Sources
-## Data Dictionary
+> Code:You use only
 
-## Methodology
-## Visualizations
-## Key Findings
+Enter list items here on how you used AI
 
-## Technologies Used
-
-## Installation
-## Create a Virtual Environment
-## Usage
-
-## Project Structure
+<br>
 
 ## Future Improvements
-## Acknowledgments
+
+> OPTIONAL
+
+To-do list of what features you want to add or enhance
+
+<br>
+
+## Acknowledgments & Resources
+
+Add more external links to where you got help.
+
+<br>
+
 ## Contributing
+
+> OPTIONAL
+
+Contributions are welcome. Please review [CONTRIBUTING.md](#) for guidelines, workflow, and code style expectations.
+
+<br>
+
 ## License
-```
+
+> OPTIONAL
+
+Licensed under the [MIT License](#). Free to use for educational purposes.
+
+<!--
+📌 How to add a license:
+  - https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository
+ -->
+
+ <!-- 
+ OTHER IMPORTANT LINKS
+
+  📌 Accessible Markdown:
+  - https://github.blog/developer-skills/github/5-tips-for-making-your-github-profile-page-accessible/
+
+  📌 Create a PR Template:
+  - https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository
+  - https://axolo.co/blog/p/part-3-github-pull-request-template
+  - https://github.com/Kernix13/github-actions-dotfiles/blob/main/dotfiles.md#dot-github-folder
+
+  📌 Create an issues template
+  - https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository
+  - https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates
+  -->

@@ -1,99 +1,337 @@
-# Software Development README Template
+---
+language: Software Development README Template
+slug: csharp-template
+type: template
+last_updated: 2026-03-31
+---
 
-<!-- Delete the H1 above -->
+# Your Project Name – short descriptive subtitle
 
-<h1 id="back-to-top">Your Project Name</h1>
+Badges (optional)
 
-<div align="center"><img width="686" height="415" alt="Home page search results image cards" src="./placeholder.png" /></div>
+<!--
+📌 Shields.io badges:
+- Go to https://shields.io/badges, try for-the-badge, flat or flat-square
+ -->
 
-## Headings???
+Intro paragraph (VERY important for SEO)
 
-I am not sure of the "best" headings for a C# project. The _Capstone Requirements_ heading below is only for a capstone project, but what about a stand-alone project? Here is what I think would be good to include with ✅ for any heading I definitely think should be included:
+Screenshot / GIF demo
 
-- Title ✅
-  - Intro paragraph below title
-- Overview or About or Description ✅
-- Requirements ✅
-- Getting Started or Install & Setup or How to Run ✅
-- Usage Guide or How it Works or How to Use ✅
-- Features
-- Project Structure ✅
-- Future Improvements
-- Setting Environment Variables
-- Data Sources
-- Technology and frameworks
+<br>
+
+## Table of Contents
+
+> I am not sure of all the other headings a C# Software Development project may/should have. It depends if you build a console app, a website, or a web app, or any other possible dotnet template.
+
+1. [Project Overview](#project-overview)
+1. [APIs Used](#apis-used)
+1. [Something here](#)
+1. [Technologies Used](#technologies-used)
+1. [Installation](#installation)
+1. [Usage](#usage)
+1. [Something here](#)
+1. [Project Structure](#project-structure)
+1. [Something here](#)
+1. [Capstone Requirements](#capstone-requirements)
+1. [Use of AI](#use-of-ai)
+1. [Future Improvements](#future-improvements)
+1. [Acknowledgments & Resources](#acknowledgments-resources)
+1. [Contributing](#contributing)
+1. [License](#license)
+
+<br>
+
+## Project Overview
+
+More in-depth explanation than the intro paragraph of:
+
+- the goal of the analysis
+  - determine why certain repos rank in Google SERPS when others do not
+  - once determined, employ the same methods to improve my repo visibility
+  - provide this information to other developers
+- the dataset used
+  - my own research
+- the main insights or results
+
+<br>
+
+## APIs Used
+
+Maybe a table here of the APIs used for the project.
+
+<br>
+
+## Something here
+
+Other possible headings that go here or lower in the README:
+
 - Object Schema
-- APIs
-- Contributing ✅
-- License ✅
+- System Requirements
+- Unit Test
+- Database
+
+<br>
+
+## Technologies Used
+
+List the major tools & dependencies used.
+
+| Tool   | Version  |
+| :----- | :------- |
+| Tool 1 | `??.?.?` |
+| Tool 2 | `??.?.?` |
+| Tool 3 | `??.?.?` |
+
+<br>
+
+## Installation
+
+> Use orderlists with indented code blocks for the SEO + Accessibility
+
+Follow these steps to set up the project locally.
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/YOUR_USER_NAME/REPO_NAME.git
+   cd REPO_NAME
+   ```
+
+2. Something here
+
+   ```bash
+   # Something goes here
+   ```
+
+3. Something else here
+
+   ```bash
+   # Something goes here
+   ```
+
+4. Install dependencies
+
+   ```bash
+   # Something goes here
+   ```
+
+### Quick Start
+
+```sh
+git clone https://github.com/YOUR_USER_NAME/REPO_NAME.git
+cd REPO_NAME
+# other commands here
+```
+
+<br>
+
+## Usage
+
+1. Something here:
+
+   ```sh
+   # Something goes here
+   ```
+
+2. Something else here:
+
+   ```sh
+   # Something goes here
+   ```
+
+3. Something else here:
+
+   ```sh
+   # Something goes here
+   ```
+
+<br>
+
+## Something here
+
+Some other section here???
+
+<br>
+
+## Project Structure
+
+<!--
+📌 Project Tree Structure generators:
+  1. ChatGPT is best IMO: https://chatgpt.com/
+  2. https://tree.nathanfriend.com/
+  3. https://ascii-tree-generator.com/
+  4. VSCode File Tree Generator extension
+  5. npm tree-cli: https://www.npmjs.com/package/tree-cli
+ -->
+
+```py
+/
+├── README.md
+├── LICENSE
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+...
+```
+
+<br>
+
+## Something here
+
+Some other section here???
+
+<br>
 
 ## Capstone Requirements
 
-> _I need to look at the projects from August cohort_
+> Code:You use only
 
-- Have at least 5 commits on GitHub
+- Upload your project to a GitHub repository with at least 10 distinct commits
+- Show your features implemented as list items or in a table as below
+
+### Table 1
 
 <table>
-    <thead>
-      <tr>
-        <th>FEATURE</th>
-        <th>DIFFICULTY</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Have at least one class & at least one object of that class populated with data. Data must be used or displayed in the application</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Have at least 3 functions or methods with at least one returning a value that is used in the application</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Implement a “master loop” console application where the user can repeatedly enter commands/perform actions, including choosing to exit the program</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Create an additional class which inherits one or more properties from its parent</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program</td>
-        <td>Easy</td>
-      </tr>
-      <tr>
-        <td>Make your application an API</td>
-        <td>Medium</td>
-      </tr>
-      <tr>
-        <td>Make your application a CRUD API</td>
-        <td>Medium/Hard</td>
-      </tr>
-      <tr>
-        <td>Make your application asynchronous</td>
-        <td>Medium</td>
-      </tr>
-      <tr>
-        <td>Implement a log that records errors, invalid inputs, or other important events and writes them to a text file</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Implement a regular expression (regex) to ensure a field either a phone number or an email address is always stored and displayed in the same format</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Read data from an external file, such as text, JSON, CSV, etc and use that data in your application</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <thead>
+    <tr>
+      <th>FEATURE</th>
+      <th>DIFFICULTY</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Pathway requirement 1</td>
+      <td>Easy</td>
+    </tr>
+    <tr>
+      <td>Pathway requirement 2</td>
+      <td>Easy</td>
+    </tr>
+    <tr>
+      <td>Pathway requirement 3</td>
+      <td>Easy</td>
+    </tr>
+    <tr>
+      <td>Pathway requirement 4</td>
+      <td>Easy</td>
+    </tr>
+    <tr>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+  </tbody>
+</table>
 
-<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+### Table 2
+
+<table>
+  <thead>
+    <tr>
+      <th>FEATURE</th>
+      <th>DIFFICULTY</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Pathway requirement 1</td>
+      <td>Easy</td>
+    </tr>
+    <tr>
+    <tr>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+## Tech Stack
+
+<!--
+📌 See all devicons here:
+  - https://github.com/devicons/devicon
+ -->
+
+> OPTIONAL
+
+```html
+<table>
+  <thead>
+    <tr>
+      <th>Tech</th>
+      <th>Use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Name of tech</td>
+      <td>
+        <ul>
+          <li>example using list items</li>
+          <li>list item 2</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+```
+
+<br>
+
+## Use of AI
+
+> Code:You use only
+
+Enter list items here on how you used AI
+
+<br>
+
+## Future Improvements
+
+> OPTIONAL
+
+To-do list of what features you want to add or enhance
+
+<br>
+
+## Acknowledgments & Resources
+
+Add more external links to where you got help.
+
+<br>
+
+## Contributing
+
+> OPTIONAL
+
+Contributions are welcome. Please review [CONTRIBUTING.md](#) for guidelines, workflow, and code style expectations.
+
+<br>
+
+## License
+
+> OPTIONAL
+
+Licensed under the [MIT License](#). Free to use for educational purposes.
+
+<!--
+📌 How to add a license:
+  - https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository
+ -->
+
+ <!-- 
+ OTHER IMPORTANT LINKS
+
+  📌 Accessible Markdown:
+  - https://github.blog/developer-skills/github/5-tips-for-making-your-github-profile-page-accessible/
+
+  📌 Create a PR Template:
+  - https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository
+  - https://axolo.co/blog/p/part-3-github-pull-request-template
+  - https://github.com/Kernix13/github-actions-dotfiles/blob/main/dotfiles.md#dot-github-folder
+
+  📌 Create an issues template
+  - https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository
+  - https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates
+  -->

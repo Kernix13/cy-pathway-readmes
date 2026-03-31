@@ -1,28 +1,126 @@
-# Web Development README Template
+---
+language: Web Development README Template
+slug: web-dev-template
+type: template
+last_updated: 2026-03-31
+---
 
-<!-- Delete the H1 above -->
+# Your Project Name – short descriptive subtitle
 
-<h1 id="back-to-top">Your Project Name</h1>
-
-<!-- Check the width and height attributes -->
-<div align="center"><img width="709" height="413" alt="image" src="./placeholder.png" /></div>
+Badges (optional)
 
 <!--
-Project overview and objectives.
-Setup and installation instructions.
-Usage guidelines and feature descriptions.
-Data sources and API integration details.
--->
+📌 Shields.io badges:
+- Go to https://shields.io/badges, try for-the-badge, flat or flat-square
+ -->
+
+Intro paragraph (VERY important for SEO)
+
+Screenshot / GIF demo
+
+## Table of Contents
+
+1. [Project Overview](#project-overview)
+1. [Features](#features)
+1. [Demo / Live Site](#demo-live-site)
+1. [Technologies Used](#technologies-used)
+1. [Installation](#installation)
+1. [Usage](#usage)
+1. [Project Structure](#project-structure)
+1. [Capstone Requirements](#capstone-requirements)
+1. [Tech Stack](#tech-stack)
+1. [Use of AI](#use-of-ai)
+1. [Future Improvements](#future-improvements)
+1. [Acknowledgments & Resources](#acknowledgments-resources)
+1. [Contributing](#contributing)
+1. [License](#license)
 
 ## Project Overview
 
-<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+## Features
 
-## Getting Started
+Features = capabilities of the software/app, end-user features
 
-<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+## Demo / Live Site
+
+Try the project here: https://project-demo.com
+
+## Technologies Used
+
+If applicable: simple table of things like Node, npm, Express, etc. Include internal and external links whenever it makes sense
+
+Example:
+
+| Tool                                           | Version  |
+| :--------------------------------------------- | :------- |
+| [Node.js](https://nodejs.org/docs/latest/api/) | v22.20.0 |
+| [npm](https://www.npmjs.com/)                  | 10.9.3   |
+| [Express](https://expressjs.com/)              | ^5.2.0   |
+
+<br>
+
+## Installation
+
+> Use orderlists with indented code blocks for the SEO + Accessibility
+
+Follow these steps to set up the project locally.
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/YOUR_USER_NAME/REPO_NAME.git
+   cd REPO_NAME
+   ```
+
+2. Install dependencies
+
+   ```bash
+   npm install
+   ```
+
+3. Create a `.env` file in the project root. Copy the lines in `.env.example` and paste them into your newly created `.env` file. Example:
+
+   ```bash
+   CLIENT_ID=your_unsplash_client_id
+   PORT=port_number
+   ```
+
+<br>
+
+## Usage
+
+1. Start the development server:
+
+   ```sh
+   npm run dev
+   ```
+
+2. CTRL + click the link http://localhost:8080 in the terminal to open up localhost on port 8080:
+
+   ```sh
+   Server is running http://localhost:8080
+   ```
+
+3. (OPTIONAL): Run Biome for linting and formatting checks on your files (or any other linter you use):
+
+   ```sh
+   npm run check
+   ```
+
+### Getting an [something-here] API key
+
+Visit https://some-api.com/developers and create an API application.
 
 ## Project Structure
+
+<!--
+📌 Project Tree Structure generators:
+  1. ChatGPT is best IMO: https://chatgpt.com/
+  2. https://tree.nathanfriend.com/
+  3. https://ascii-tree-generator.com/
+  4. VSCode File Tree Generator extension
+  5. npm tree-cli: https://www.npmjs.com/package/tree-cli
+ -->
 
 ```py
 /
@@ -35,7 +133,10 @@ Data sources and API integration details.
 
 ## Capstone Requirements
 
+> Code:You use only
+
 - Upload your project to a GitHub repository with at least 10 distinct commits
+- Show your features implemented as list items or in a table as below
 
 ### Table 1
 
@@ -48,36 +149,24 @@ Data sources and API integration details.
   </thead>
   <tbody>
     <tr>
-      <td>Analyze data that is stored in arrays, objects, sets or maps and display information about it in your app.</td>
+      <td>Pathway requirement 1</td>
       <td>Easy</td>
     </tr>
     <tr>
-      <td>Validate user input and either prevent the invalid input or inform the user about it (in all cases prevent invalid input
-      from being stored or saved)</td>
+      <td>Pathway requirement 2</td>
       <td>Easy</td>
     </tr>
     <tr>
-      <td>Create a function that accepts two or more input parameters and returns a value that is calculated or determined by the
-      inputs. Basic math functions don’t count (e.g. addition, etc).</td>
+      <td>Pathway requirement 3</td>
       <td>Easy</td>
     </tr>
     <tr>
-      <td>Visualize data in a user friendly way. (e.g. graph, chart, etc) <br> This can include using libraries like ChartJS</td>
-      <td>Easy/Intermediate</td>
+      <td>Pathway requirement 4</td>
+      <td>Easy</td>
     </tr>
     <tr>
-      <td>Convert user input between two formats and display the result. (e.g. Fahrenheit to Celcius, kilograms to pounds, etc)</td>
-      <td>Easy/Intermediate</td>
-    </tr>
-    <tr>
-      <td>Calculate and display data based on an external factor (ex: get the current date, and display how many days remaining
-      until some event)</td>
-      <td>Intermediate</td>
-    </tr>
-    <tr>
-      <td>Persist important data to the user to local storage and make the stored data accessible in your app. (including after
-      reload/refresh).</td>
-      <td>Intermediate</td>
+      <td>...</td>
+      <td>...</td>
     </tr>
   </tbody>
 </table>
@@ -93,31 +182,27 @@ Data sources and API integration details.
   </thead>
   <tbody>
     <tr>
-      <td>Create a node.js web server using Express.js.</td>
-      <td>Easy/Intermediate</td>
+      <td>Pathway requirement 1</td>
+      <td>Easy</td>
     </tr>
     <tr>
-      <td>Create an API that implements HTTP requests for GET and POST. Data can be stored in a JSON file on the back-end</td>
-      <td>Intermediate</td>
-    </tr>
     <tr>
-      <td>Interact with a SQLite database to store and retrieve information (requires building an API)</td>
-      <td>Hard</td>
-    </tr>
-    <tr>
-      <td>Develop your project using a common JavaScript framework such as React, Svelte, or Vue.</td>
-      <td>Intermediate - Hard</td>
-    </tr>
-    <tr>
-      <td>Create 3 or more unit tests for your application</td>
-      <td>Intermediate - Hard</td>
+      <td>...</td>
+      <td>...</td>
     </tr>
   </tbody>
 </table>
 
-<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<br>
 
 ## Tech Stack
+
+<!--
+📌 See all devicons here:
+  - https://github.com/devicons/devicon
+ -->
+
+> OPTIONAL
 
 ```html
 <table>
@@ -143,10 +228,49 @@ Data sources and API integration details.
 
 ## Use of AI
 
-## Future Improvements (OPTIONAL)
+> Code:You use only
 
-## Contributing (OPTIONAL)
+Enter list items here on how you used AI
 
-## License (OPTIONAL)
+## Future Improvements
 
-<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+> OPTIONAL
+
+To-do list of what features you want to add or enhance
+
+## Acknowledgments & Resources
+
+Add more external links to where you got help.
+
+## Contributing
+
+> OPTIONAL
+
+Contributions are welcome. Please review [CONTRIBUTING.md](#) for guidelines, workflow, and code style expectations.
+
+## License
+
+> OPTIONAL
+
+Licensed under the [MIT License](#). Free to use for educational purposes.
+
+<!--
+📌 How to add a license:
+  - https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository
+ -->
+
+ <!-- 
+ OTHER IMPORTANT LINKS
+
+  📌 Accessible Markdown:
+  - https://github.blog/developer-skills/github/5-tips-for-making-your-github-profile-page-accessible/
+
+  📌 Create a PR Template:
+  - https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository
+  - https://axolo.co/blog/p/part-3-github-pull-request-template
+  - https://github.com/Kernix13/github-actions-dotfiles/blob/main/dotfiles.md#dot-github-folder
+
+  📌 Create an issues template
+  - https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository
+  - https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates
+  -->

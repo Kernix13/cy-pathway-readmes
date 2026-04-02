@@ -2,7 +2,7 @@
 language: Web Development README Template
 slug: web-dev-template
 type: template
-last_updated: 2026-03-31
+last_updated: 2026-04-02
 ---
 
 # Your Project Name – short descriptive subtitle
@@ -207,7 +207,8 @@ Visit https://some-api.com/developers and ...
   - https://github.com/devicons/devicon
  -->
 
-> OPTIONAL: I show HTML `table` syntax but you could use markdown syntax. Using HTML is better if you have long text which will "_break_" markdown syntax.
+> OPTIONAL: this section may not be required
+> NOTE: I show HTML `table` syntax but you could use markdown syntax. Using HTML is better if you have long text which will "_break_" markdown syntax.
 
 ```html
 <table>

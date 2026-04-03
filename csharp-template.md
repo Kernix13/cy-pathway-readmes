@@ -1,5 +1,5 @@
 ---
-language: Software Development README Template
+description: Software Development README Template
 slug: csharp-template
 type: template
 last_updated: 2026-04-02

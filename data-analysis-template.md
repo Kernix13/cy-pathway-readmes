@@ -1,5 +1,5 @@
 ---
-language: Data Analysis README Template
+description: Data Analysis README Template
 slug: data-analysis-template
 type: template
 last_updated: 2026-04-02

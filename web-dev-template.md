@@ -1,5 +1,5 @@
 ---
-language: Web Development README Template
+description: Web Development README Template
 slug: web-dev-template
 type: template
 last_updated: 2026-04-02

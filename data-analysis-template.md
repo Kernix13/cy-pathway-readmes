@@ -402,3 +402,41 @@ Licensed under the [MIT License](#). Free to use for educational purposes.
   - https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository
   - https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates
   -->
+
+<!--
+
+  Data [FILL_IN_THE_BLANK] headings variations
+  - Data Sources - 17 (29)
+    - Datasets Used - 2
+    - The Data - 1
+    - Raw Data Files - 1
+    - DATA DESCRIPTION/SOURCE - 1
+    - Sources - 1
+    - Data Selection - 1
+    - Data - 4
+      - Data Sources + Dataset Structure + Preprocessing  + Merging multiple datasets - 1
+  - Data Dictionary - 10
+  - Data Summary - 4
+  - Data Processing and Data Transformation - 3
+  - Gathering the data - 3
+  - Data Analysis Conclusions - 1 (2)
+    - Data Analysis - 1
+  - Data Cleaning - 1 (4)
+    - Data Acquisition, Cleaning, and Analysis - 1
+    - Data Cleaning Goals & Considerations - 1
+    - Data Cleaning and Operation - 1
+  - Data inconsistencies, limitations, issues - 1
+  - Data Visualization - 1 (~8)
+    - Visualization ~ 7
+
+  ✅ SUMMARY:
+  - Data Sources - 29
+  - Data Dictionary - 10
+  - (Data) Visualizations ~ 8
+  - Data Summary - 4
+  - Data Cleaning + [others] ~ 4
+  - Data Processing and Data Transformation - 3
+  - Gathering the data - 3
+  - Data Analysis - 2
+
+ -->

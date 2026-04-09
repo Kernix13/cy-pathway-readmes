@@ -429,7 +429,7 @@ Licensed under the [MIT License](#). Free to use for educational purposes.
   - Data Visualization - 1 (~8)
     - Visualization ~ 7
 
-  ✅ SUMMARY:
+  ✅ DATA HEADINGS SUMMARY:
   - Data Sources - 29
   - Data Dictionary - 10
   - (Data) Visualizations ~ 8
@@ -438,5 +438,15 @@ Licensed under the [MIT License](#). Free to use for educational purposes.
   - Data Processing and Data Transformation - 3
   - Gathering the data - 3
   - Data Analysis - 2
+
+  ✅ OTHER COMMON HEADINGS:
+  - Project Summary - 2
+  - Conclusion - 1
+  - Project Challenges - 1
+  - Summary - 1
+  - Features / Project Features - 4 (is this Code:You capstone features?)
+  - Research - 1
+  - Streamlit - 1
+  - Consider: bullet point Data Set summary with datatype counts
 
  -->

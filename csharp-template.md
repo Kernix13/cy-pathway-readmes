@@ -27,7 +27,7 @@ Screenshot / GIF demo either above H1, below badges, above intro text, or here.
 1. [Project Overview](#project-overview)
 1. [APIs Used](#apis-used)
 1. Something else here
-1. [Technologies Used](#technologies-used)
+1. [Prerequisites](#prerequisites)
 1. [Installation](#installation)
 1. [Usage](#usage)
 1. Something else here
@@ -40,6 +40,22 @@ Screenshot / GIF demo either above H1, below badges, above intro text, or here.
 1. [Acknowledgments & Resources](#acknowledgments-resources)
 1. [Contributing](#contributing)
 1. [License](#license)
+
+<!--
+  Consider this structure for console apps:
+  1. Title
+  2. intro paragragh
+  3. prerequisites - include API here
+  4. Installation (or Getting Started)
+  5. Configuration
+  6. Usage
+  7. Features
+  8. Project Structure
+  9. Testing
+  10. Contributing
+  11. License
+  How would this structure change for other "common" .NET templates?
+ -->
 
 <br>
 
@@ -66,15 +82,27 @@ Other possible headings that go here or lower in the README:
 
 <br>
 
-## Technologies Used
+## Prerequisites
 
 List the major tools & dependencies used.
 
-| Tool   | Version  |
-| :----- | :------- |
-| Tool 1 | `??.?.?` |
-| Tool 2 | `??.?.?` |
-| Tool 3 | `??.?.?` |
+- [.NET SDK 10.0](https://dotnet.microsoft.com/en-us/download)
+- [Visual Studio Code](https://code.visualstudio.com/) with [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
+- Next tech here
+
+<!--
+   Maybe add NuGet to the above list when I use that in future projects
+   Google: "sample readme for a c# console application" for good boilerplate
+ -->
+
+Or table version:
+
+| Tool               | Version  |
+| :----------------- | :------- |
+| .NET SDK           | `10.0`   |
+| Visual Studio Code | N/A      |
+| NuGet              | `??.?.?` |
+| Tool 4             | `??.?.?` |
 
 <br>
 
@@ -87,23 +115,29 @@ Follow these steps to set up the project locally.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/YOUR_USER_NAME/REPO_NAME.git
-   cd REPO_NAME
+   git clone https://github.com/YOUR_USER_NAME/PROJECT_NAME.git
+   cd PROJECT_NAME
    ```
 
-2. Something here
+2. Restore dependencies
 
    ```bash
-   # Something goes here
+   dotnet restore
    ```
 
-3. Something else here
+3. Create a solution file (is this step necessary?)
 
    ```bash
-   # Something goes here
+   dotnet new sln
    ```
 
-4. Install dependencies
+4. Link the project to the solution (is this step necessary?)
+
+   ```bash
+   dotnet sln add PROJECT_NAME.csproj
+   ```
+
+5. Something here?
 
    ```bash
    # Something goes here
@@ -112,25 +146,31 @@ Follow these steps to set up the project locally.
 ### Quick Start
 
 ```sh
-git clone https://github.com/YOUR_USER_NAME/REPO_NAME.git
-cd REPO_NAME
+git clone https://github.com/YOUR_USER_NAME/PROJECT_NAME.git
+cd PROJECT_NAME
 # other commands here
 ```
 
 <br>
 
+## Configuration
+
+- notes on appsettings.json, launch.json, ApiKey, ConnectionString
+
+<br>
+
 ## Usage
 
-1. Something here:
+1. Run the application
 
-   ```sh
-   # Something goes here
+   ```bash
+   dotnet run
    ```
 
-2. Something else here:
+2. Build the application
 
-   ```sh
-   # Something goes here
+   ```bash
+   dotnet build
    ```
 
 3. Something else here:

@@ -106,7 +106,7 @@ Or table version:
 
 <br>
 
-## Installation
+## Installation & Usage
 
 > Use ordered lists with indented code blocks for SEO + Accessibility
 
@@ -125,22 +125,22 @@ Follow these steps to set up the project locally.
    dotnet restore
    ```
 
-3. Create a solution file (is this step necessary?)
+3. Run the application
 
    ```bash
-   dotnet new sln
+   dotnet run
    ```
 
-4. Link the project to the solution (is this step necessary?)
+4. Build the application
 
    ```bash
-   dotnet sln add PROJECT_NAME.csproj
+   dotnet build
    ```
 
 5. Something here?
 
    ```bash
-   # Something goes here
+   # other commands here
    ```
 
 ### Quick Start
@@ -148,7 +148,9 @@ Follow these steps to set up the project locally.
 ```sh
 git clone https://github.com/YOUR_USER_NAME/PROJECT_NAME.git
 cd PROJECT_NAME
-# other commands here
+dotnet restore
+dotnet run
+# other commands here?
 ```
 
 <br>
@@ -156,28 +158,6 @@ cd PROJECT_NAME
 ## Configuration
 
 - notes on appsettings.json, launch.json, ApiKey, ConnectionString
-
-<br>
-
-## Usage
-
-1. Run the application
-
-   ```bash
-   dotnet run
-   ```
-
-2. Build the application
-
-   ```bash
-   dotnet build
-   ```
-
-3. Something else here:
-
-   ```sh
-   # Something goes here
-   ```
 
 <br>
 

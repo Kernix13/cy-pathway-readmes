@@ -71,7 +71,7 @@ Where the data came from.
 
 Include:
 
-- Dataset links: source are files I created
+- Dataset links: source are files you created
   - `data/file1.csv`
   - `data/file2.csv`
 - APIs used
@@ -182,11 +182,12 @@ pip install -r requirements.txt
 
 Explanation of the important variables or fields in the dataset. Example:
 
-| Column   | Description               |
-| -------- | ------------------------- |
-| price    | Listing price of property |
-| sqft     | Square footage            |
-| bedrooms | Number of bedrooms        |
+| Column   | Description               | Data Type |
+| -------- | ------------------------- | --------- |
+| price    | Listing price of property | float64   |
+| sqft     | Square footage            | float64   |
+| bedrooms | Number of bedrooms        | int64     |
+| zip      | Zip code of property      | str       |
 
 <br>
 
